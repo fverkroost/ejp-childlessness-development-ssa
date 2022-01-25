@@ -5,6 +5,22 @@ This repository contains the code used to generate the results published in the 
 
 Please cite this paper whenever referring to (parts of) this code.
 
+## Explanation
+
+To keep the code structured and clear, the code in this repository is spread across a number of different files:
+
+| Script file                        | Functions file                     | Description                                          |
+| ---------------------------------- | ---------------------------------- | ---------------------------------------------------- |
+| ```script-initialization.R```      |                                    | Load packages, set seed                              |
+| ```script-main.R```                | ```functions-main.R```             | Call other scripts for main and sensitivity analyses |
+| ```script-data-loading.R```        |                                    | Load DHS data into R                                 |
+| ```script-data-prep.R```           | ```functions-data-prep.R```        | Clean and wrangle all necessary data                 |
+| ```script-data-plot.R```           | ```functions-data-plot.R```        | Make plots of data                                   |
+| ```script-additional-analyses.R``` |                                    | Perform descriptive analyses                         |
+| ```script-multilevel-model.R```    | ```functions-multilevel-model.R``` | Perform multilevel modelling                         |
+
+The only file that the user needs is ```script-main.R```. As explained later, some DHS configurations need to be set by the user in this script; and the user can decide which analyses (e.g. only the main analyses or also some sensitivity analyses) to run.
+
 ## Preparation
 
 To reproduce the results presented in the paper, the code published in this repository can be used. Some online, publicly available data should be downloaded by the person aiming to replicate these results. Note that these third-party data may have been updated since the code was last run and the results for the paper were obtained, which may affect how the code runs and what results are produced. In this case, the exact data used may be available from the author upon request.
