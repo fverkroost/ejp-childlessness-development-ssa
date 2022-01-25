@@ -14,9 +14,9 @@ It is highly recommended to create an RStudio project in the same folder in whic
 ├── main
 │   ├── data_files
 │   │   ├── GDL_shapes
-│   │   ├── HIVDATA
-│   │   │   ├── Regional
-│   │   │   ├── National
+│   │   ├── HIV_prevalence
+│   │   │   ├── regional
+│   │   │   ├── national
 ```
 
 Some data will have to be downloaded by the user. Other data, such as the HIHD or the UN population data are downloaded automatically from the relevant webpages. The following steps should be taken before running any code, or else the code will exit with an error saying the necessary data are not available.
