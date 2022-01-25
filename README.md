@@ -62,7 +62,7 @@ The code will automatically output the results to a new folder ```results``` und
 | Table 2      | Descriptive statistics                         |                         | descriptiveStatistics.txt                  |
 | Figure 3     | Childlessness trends                           |                         | childlessness_trend_ssa_plot_sorted_na.png |
 | Figure 4     | Childlessness maps                             |                         | mapChildlessness.png                       |
-| Figure 5a.   | National-level bivariate scatter plot          | scatter_plots/national/ | childlessSHIHD_bestfit.png                 |
+| Figure 5a    | National-level bivariate scatter plot          | scatter_plots/national/ | childlessSHIHD_bestfit.png                 |
 | Figure 5b    | Regional-level bivariate scatter plot          | scatter_plots/regional/ | childlessSHIHD_bestfit.png                 |
 | Figure 6     | Regional-level multivariate scatter plot       | scatter_plots/regional/ | finalFit_bestfit.png                       |
 | Table 3      | Multilevel regression coefficients             | multilevel_results/     | linMenquadWomenTimeGrouped.txt             |
