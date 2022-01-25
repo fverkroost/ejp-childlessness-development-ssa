@@ -37,12 +37,12 @@ It is highly recommended to create an RStudio project in the same folder in whic
 
 Some data will have to be downloaded by the user. Other data, such as the HIHD or the UN population data are downloaded automatically from the relevant webpages. The following steps should be taken before running any code, or else the code will exit with an error saying the necessary data are not available.
 
-###### Step 1: Create a DHS profile to be able to download the necessary surveys from the DHS repository. 
+#### Step 1: Create a DHS profile to be able to download the necessary surveys from the DHS repository. 
 
 1. To make a profile, follow the steps described on [this DHS webpage](https://dhsprogram.com/data/Access-Instructions.cfm). 
 2. Make sure to fill in your email address and DHS project name in lines 10 respectively 11 of ```script-main.R```. 
 
-###### Step 2: Download the SHDI data from GlobalDataLabs.
+#### Step 2: Download the SHDI data from GlobalDataLabs.
 
 For each of the four relevant indicators (Sub-national HDI, Educational index, Health index, Income index), follow these steps:
 1. Go to [this GlobalDataLabs webpage](https://globaldatalab.org/shdi/shdi/).
@@ -57,13 +57,13 @@ For each of the four relevant indicators (Sub-national HDI, Educational index, H
 | Health index      | ```GDL-Health-index-data.csv```      |
 | Income index      | ```GDL-Income-index-data.csv```      |
 
-###### Step 3: Download the GlobalDataLabs shape file data for mapping.
+#### Step 3: Download the GlobalDataLabs shape file data for mapping.
 
 1. Go to [this GlobalDataLabs webpage](https://globaldatalab.org/shdi/shapefiles/).
 2. Download the GDL codes (```GDL Codes VX```) and shape files (```GDL Shapefiles VX```).
 3. Put these all as separate files (without sub-folders) in folder ```GDL_shapes``` (under ```data_files```).
 
-###### Step 4: Download the HIV prevalence data.
+#### Step 4: Download the HIV prevalence data.
 
 1. For the national data, go to the [UNAIDS webpage](http://aidsinfo.unaids.org/). Download the data separately for men and women, making sure to select young men and women. Save this in files under the ```National``` folder (in ```HIVDATA``` in ```data_files```) under names ```nationalYoungMen.csv``` and ```nationalYoungWomen.csv```.
 2. For the regional data (part 1), visit [Statcompiler](https://www.statcompiler.com/c831c3ee-3d12-493f-840a-d4730d8e2a31). Save the data under name  ```STATcompilerHIVdata.xlsx``` in the ```Regional``` folder (in ```HIVDATA``` in ```data_files```).
