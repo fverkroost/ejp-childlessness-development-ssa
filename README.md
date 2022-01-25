@@ -8,12 +8,12 @@ Please cite this paper whenever referring to (parts of) this code.
 To reproduce the results presented in the paper, the code published in this repository can be used. Some online, publicly available data should be downloaded by the person aiming to replicate these results. Note that these third-party data may have been updated since the code was last run and the results for the paper were obtained, which may affect how the code runs and what results are produced.
 
 It is highly recommended to create an RStudio project in the same folder in which the code lives. The folder in which the code exists should have the following structure:
-|___ Main folder (where the RStudio project is located, name of the folder does not matter)
-|	|___ data_files
-|	|	|___ GDL_shapes
-|	|	|___ HIVDATA
-|	|	|	|___ Regional
-|	|	|	|___ National
+|-- Main folder (where the RStudio project is located, name of the folder does not matter)
+|	|-- data_files
+|	|	|-- GDL_shapes
+|	|	|-- HIVDATA
+|	|	|	|-- Regional
+|	|	|	|-- National
 
 The following steps should be taken before running any code, or else the code will exit with an error saying the necessary data are not available.
 
