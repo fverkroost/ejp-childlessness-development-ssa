@@ -45,13 +45,13 @@ For each of the four relevant indicators (Sub-national HDI, Educational index, H
 
 1. Go to [this GlobalDataLabs webpage](https://globaldatalab.org/shdi/shapefiles/).
 2. Download the GDL codes (```GDL Codes VX```) and shape files (```GDL Shapefiles VX```).
-3. Put these all as separate files in folder ```GDL_shapes``` (under ```data_files```).
+3. Put these all as separate files (without sub-folders) in folder ```GDL_shapes``` (under ```data_files```).
 
 ###### Step 4: Download the HIV prevalence data.
 
 1. For the national data, go to the [UNAIDS webpage](http://aidsinfo.unaids.org/). Download the data separately for men and women, making sure to select young men and women. Save this in files under the ```National``` folder (in ```HIVDATA``` in ```data_files```) under names ```nationalYoungMen.csv``` and ```nationalYoungWomen.csv```.
 2. For the regional data (part 1), visit [Statcompiler](https://www.statcompiler.com/c831c3ee-3d12-493f-840a-d4730d8e2a31). Save the data under name  ```STATcompilerHIVdata.xlsx``` in the ```Regional``` folder (in ```HIVDATA``` in ```data_files```).
-3. For the regional data (part 2), visit [UNAIDS](http://aidsinfo.unaids.org/). Download the data by country and gender separately. Save in format ```countryRegionYoungGender.csv``` (e.g. ```beninRegionYoungMen.csv``` or ```coteIvoireRegionYoungWomen.csv```) in the ```Regional``` folder (in ```HIVDATA``` in ```data_files```).
+3. For the regional data (part 2), visit [UNAIDS](http://aidsinfo.unaids.org/). Download the data by country and gender separately. Save in format ```countryRegionYoungGender.csv``` (e.g. ```beninRegionYoungMen.csv``` or ```coteIvoireRegionYoungWomen.csv```) in the ```Regional``` folder (in ```HIVDATA``` in ```data_files```). The countries for which these data were obtained originally are (in the way the file names are formatted): benin, coteIvoire, ethiopia, kenya, mozambique, nigeria, togo, zambia and zimbabwe.
 
 ## Results
 
