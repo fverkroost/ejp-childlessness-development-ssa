@@ -44,18 +44,18 @@ For each of the four relevant indicators (Sub-national HDI, Educational index, H
 ###### Step 3: Download the GlobalDataLabs shape file data for mapping.
 
 1. Go to [this GlobalDataLabs webpage](https://globaldatalab.org/shdi/shapefiles/).
-2. Download the GDL codes ('GDL Codes VX') and shape files ('GDL Shapefiles VX').
-3. Put these all as separate files in folder 'GDL_shapes' (under 'data_files').
+2. Download the GDL codes (```GDL Codes VX```) and shape files (```GDL Shapefiles VX```).
+3. Put these all as separate files in folder ```GDL_shapes``` (under ```data_files```).
 
 ###### Step 4: Download the HIV prevalence data.
 
-1. For the national data, go to the [UNAIDS webpage](http://aidsinfo.unaids.org/). Download the data separately for men and women, making sure to select young men and women. Save this in files under the 'National' folder (in 'HIVDATA' in 'data_files') under names ```nationalYoungMen.csv``` and ```nationalYoungWomen.csv```.
-2. For the regional data (part 1), visit [Statcompiler](https://www.statcompiler.com/c831c3ee-3d12-493f-840a-d4730d8e2a31). Save the data under name  ```STATcompilerHIVdata.xlsx``` in the 'Regional' folder (in 'HIVDATA' in 'data_files').
-3. For the regional data (part 2), visit [UNAIDS](http://aidsinfo.unaids.org/). Download the data by country and gender separately. Save in format ```countryRegionYoungGender.csv``` (e.g. ```beninRegionYoungMen.csv``` or ```coteIvoireRegionYoungWomen.csv```) in the 'Regional' folder (in 'HIVDATA' in 'data_files').
+1. For the national data, go to the [UNAIDS webpage](http://aidsinfo.unaids.org/). Download the data separately for men and women, making sure to select young men and women. Save this in files under the ```National``` folder (in ```HIVDATA``` in ```data_files```) under names ```nationalYoungMen.csv``` and ```nationalYoungWomen.csv```.
+2. For the regional data (part 1), visit [Statcompiler](https://www.statcompiler.com/c831c3ee-3d12-493f-840a-d4730d8e2a31). Save the data under name  ```STATcompilerHIVdata.xlsx``` in the ```Regional``` folder (in ```HIVDATA``` in ```data_files```).
+3. For the regional data (part 2), visit [UNAIDS](http://aidsinfo.unaids.org/). Download the data by country and gender separately. Save in format ```countryRegionYoungGender.csv``` (e.g. ```beninRegionYoungMen.csv``` or ```coteIvoireRegionYoungWomen.csv```) in the ```Regional``` folder (in ```HIVDATA``` in ```data_files```).
 
 ## Results
 
-The code will automatically output the results to a new folder 'results' under 'main'. The main (i.e. not sensitivity) results are saved within folder 'ageCut40_lagW19_lagM24_HIV_sexRatios_sampleCut0_CLNeverBorn' under 'results'. The results presented in the published paper are the following:
+The code will automatically output the results to a new folder ```results``` under ```main```. The main (i.e. not sensitivity) results are saved within folder ```ageCut40_lagW19_lagM24_HIV_sexRatios_sampleCut0_CLNeverBorn``` under ```results```. The results presented in the published paper are the following:
 
 | Paper result | Description                                    | Sub-folder              | File name                                  |
 | ------------ | ---------------------------------------------- | ----------------------- | ------------------------------------------ |
