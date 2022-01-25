@@ -7,7 +7,7 @@ Please cite this paper whenever referring to (parts of) this code.
 
 ## Preparation
 
-To reproduce the results presented in the paper, the code published in this repository can be used. Some online, publicly available data should be downloaded by the person aiming to replicate these results. Note that these third-party data may have been updated since the code was last run and the results for the paper were obtained, which may affect how the code runs and what results are produced.
+To reproduce the results presented in the paper, the code published in this repository can be used. Some online, publicly available data should be downloaded by the person aiming to replicate these results. Note that these third-party data may have been updated since the code was last run and the results for the paper were obtained, which may affect how the code runs and what results are produced. In this case, the exact data used may be available from the author upon request.
 
 It is highly recommended to create an RStudio project in the same folder in which the code lives. The folder in which the code exists should have the following structure before running any code:
 ```bash
