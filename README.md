@@ -1,5 +1,5 @@
 # Childlessness and Development in sub-Saharan Africa
-This repository contains the code used to generate the results published in (the following publication)[https://link.springer.com/article/10.1007/s10680-022-09608-5#citeas] 
+This repository contains the code used to generate the results published in [the following publication](https://link.springer.com/article/10.1007/s10680-022-09608-5#citeas):
 
 **Verkroost, F.C.J., Monden, C.W.S. Childlessness and Development in Sub-Saharan Africa: Is There Evidence for a U-shaped Pattern?. _European Journal of Population_ (2022). [https://doi.org/10.1007/s10680-022-09608-5](https://doi.org/10.1007/s10680-022-09608-5)** 
 
